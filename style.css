@@ -1,0 +1,36 @@
+.calc-row {
+    height: 100vh;
+    font-family: 'Share Tech Mono', monospace;
+}
+
+.input-window {
+    text-align: end;
+}
+
+.form-control {
+    font-size: x-large;
+}
+
+.btn {
+    background-color: antiquewhite;
+    border: 2px solid white;
+}
+
+.keys {
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
+#last_actions {
+    display: none;
+    border-radius: 5px;
+    min-height: 1.5rem;
+    max-height: 4.5rem;;
+    background-color: rgba(255, 2555, 255, 0.7);
+    padding-left: 5px;
+}
+
+#show_last_actions {
+    cursor: pointer;
+}
+
